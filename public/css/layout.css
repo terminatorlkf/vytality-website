@@ -1,0 +1,620 @@
+section:before {
+    height: 120px;
+    content: "";
+    display:block;
+}
+#header {
+    background: url(../images/landing-hero.png);
+    background-position:center center;
+    /* background: transparent linear-gradient(270deg, #FFFFFF00 0%, #F6F5F600 25%, #706670A7 60%, #5F4B5E 100%) 0% 0% no-repeat padding-box;    background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-bottom:70px;
+    width:100%;
+    min-height:750px;
+    max-height:100vh;
+    margin-top: 80px;
+}
+#header h1{
+    width: 100%;
+    margin-top: 80px;
+    text-align: left;
+    font: Bold 50px Avenir Next;
+    letter-spacing: 0.58px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#header h5{
+    text-align: left;
+    font: Medium 24px Avenir Next;
+    letter-spacing: 0.24px;
+    color: #FFFFFF;
+    opacity: 1;
+    line-height: 1.4;
+}
+#header h5 a{
+    font-weight: bold;
+    color: #FFF;
+}
+/* scrolldown link */
+#header .scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+#header .scrolldown a:hover {
+    bottom: 40px;
+}
+#header a{
+    text-decoration: none;
+}
+#header a:hover{
+    opacity: .8;
+}
+.download-btn{
+    background: #FF7676 0% 0% no-repeat padding-box;
+    border:none;
+    border-radius: 38px;
+    opacity: 1;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-family: Raleway;
+    text-align:center;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.learnmore-btn{
+    background: #FFFFFFD9 0% 0% no-repeat padding-box;
+    border: 2px solid #FF7676;
+    border-radius: 38px;
+    opacity: 1;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-family: Raleway;
+    text-align:center;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: #FF7676;
+    opacity: 1;
+}
+
+#header img{
+    float:left;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+}
+#header .message1{
+    display: block;
+    margin-top: 130px;
+    padding: 20px;
+    padding-left: 30px;
+    width: 500px;
+    height: 110px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 57px 57px 57px 0px;
+    opacity: 0.8;
+    text-align: left;
+}
+#header .message2{
+    display: inline-block;
+    margin-top:100px;
+    margin-left: 80px;
+    padding:20px;
+    padding-right: 30px;
+    width: 500px;
+    height: 110px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 57px 57px 0px 57px;
+    opacity: 0.8;
+    text-align: right;
+}
+#header p{
+    margin-top: 10px;
+    font: Regular 18px Avenir Next;
+    letter-spacing: 0.18px;
+    color: #333333;
+    opacity: 1;
+}
+#about{
+    background: #fff;
+    padding-bottom: 30px;
+    overflow: hidden;;
+    height: 100%;
+}
+#about .column{
+    text-align: center;
+    align-items: center;
+    float: left;
+    padding: 40px;
+    width: 50%;
+}
+#about .text-column{
+    text-align: left;
+    margin-top: 200px;
+    float: left;
+    padding: 40px;
+    width: 50%;
+}
+#about h1{
+    text-align: center;
+    font: Bold 50px Avenir Next;
+    letter-spacing: 0.5px;
+    color: #333333;
+    opacity: 1;
+}
+#about h3{
+    font: Bold 32px Avenir Next;
+    letter-spacing: 0.4px;
+    color: #333333;
+    opacity: 1;
+}
+#about p{
+    font: Medium 24px Avenir Next;
+    letter-spacing: 0.24px;
+    color: #333333;
+    opacity: 1;
+    line-height:1.8;
+    width: 75%;
+}
+#about .screenshot{
+    width: 230px;
+    height: 446px;
+}
+#co-caring{
+    display:block;
+    background: #FCF7F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top:100px;
+    padding-bottom: 100px;
+    text-align:center;
+}
+#co-caring .text-container{
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 15px;
+}
+#co-caring h1{
+    font: Bold 40px Avenir Next;
+    letter-spacing: 0.5px;
+    color: #333333;
+    opacity: 1;
+}
+#co-caring p{
+    margin-top: 20px;
+    font: Medium 24px Avenir Next;
+    font-weight:500;
+    letter-spacing: 0.24px;
+    color: #333333;
+    height: auto;
+    opacity: 1;
+}
+#features{
+    background: #E8EEFF 0% 0% no-repeat padding-box;
+    width: auto;
+    padding:50px;
+    opacity: 1;
+}
+#features .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+#features .column {
+    display: block;
+    flex: 25%;
+    padding: 20px;
+    text-align: center;
+}
+#features .column p{
+    text-align: center;
+    margin-top: 30px;
+    font: Regular 24px Georgia;
+    letter-spacing: 0.24px;
+    color: #505050;
+    opacity: 1;
+}
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 992px) {
+    #header .message1{
+        display:none;
+    }
+    #header .message2{
+        display:none;
+    }
+    #about .text-column{
+        text-align: center;
+        margin:0;
+        padding-top: 100px;
+        width: 100%;
+    }
+    #about .text-column p{
+        width: 100%;
+    }
+    #about .column {
+        width: 100%;
+    }
+    #header .message1{
+        display:none;
+    }
+    #header .message2{
+        display:none;
+    }
+    #features .column {
+        flex: 50%;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    #features .row {
+        flex-direction: column;
+    }
+    #download .download-container{
+        font-size: 40px;
+    }
+}
+.newsletter{
+    display: block;
+    padding: 70px;
+    text-align: center;
+}
+.newsletter h1{
+    font: Demi Bold 58px Avenir Next;
+    letter-spacing: 0.58px;
+    color: #333333;
+    opacity: 1;
+}
+.newsletter p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font: Medium 24px Avenir Next;
+    letter-spacing: 0.24px;
+    color: #333333;
+    opacity: 1;
+}
+.newsletter input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    opacity: 1;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.newsletter input:focus{
+    outline:0;
+}
+.button{
+    padding:5px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    border: none;
+    color: #FFF;
+    width: 100px;
+    height: 50px;
+    background: #FF7676 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    opacity: 1;
+}
+button:focus {
+    outline:0;
+}
+
+#ourstory{
+    background:url(../images/ourstory-hero.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.header{
+    min-height: 500px;
+    width:100%;
+    margin-top: 120px;
+}
+.header h1{
+    text-align: left;
+    font: 20px Avenir;
+    font-weight: light;
+    letter-spacing: 0px;
+    color: #FF7676;
+    opacity: 1;
+    margin-top:40px;
+
+}
+.header h2{
+    color: white;
+    text-align: left;
+    font: Bold 50px Avenir Next;
+    letter-spacing: 0.58px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 500px;
+    display: block;
+}
+.header h5{
+    text-align: left;
+    font: 24px Avenir Next;
+    letter-spacing: 0.24px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 500px;
+    display: block;
+}
+.content{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.content h1{
+    font: Bold 50px Avenir Next;
+    letter-spacing: 0.5px;
+    color: #333333;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.content p{
+    font: 20px Avenir Next;
+    letter-spacing: 0.24px;
+    line-height: 1.8;
+    color: #333333;
+    width: 100%;
+    opacity: 1;
+}
+.story{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #FCF7F0 0% 0% no-repeat padding-box;
+    height: 100%;
+    opacity: 1;
+}
+.story h1{
+    text-align: left;
+    font: Bold 40px Avenir Next;
+    letter-spacing: 0.4px;
+    color: #333333;
+    opacity: 1;
+}
+.story p{
+    margin-top:40px;
+    text-align: left;
+    font: Regular 20px Avenir Next;
+    letter-spacing: 0.2px;
+    color: #333333;
+    opacity: 1;
+    line-height: 2.2;
+}
+.story img{
+    text-align:center;
+    width: 250px;
+    height: 320px
+}
+.founder-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 10px;
+    padding-bottom: 150px;
+}
+.founder-content{
+	border: 2px solid #FF7676;
+    border-radius: 10px;
+    padding: 25px;
+    min-height:400px;
+    height: 100%;
+}
+
+.titlebox{
+    display:block;
+	padding:0 5px;
+	margin:-70px 0 0 0px;
+    background:#fff;
+    padding-bottom: 10px;
+}
+.titlebox img{
+    float:left;
+    margin:10px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.titlebox h1{
+    padding-top:15px;
+    font: 30px Avenir Next;
+    letter-spacing: 0.32px;
+    font-weight: 600;
+}
+.titlebox h2{
+    margin-top:-5px;
+    font: Italic 24px Avenir Next;
+    letter-spacing: 0.24px;
+    color: #333333;
+}
+.founder-content p{
+    font: 20px Avenir Next;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+    color: #333333;
+    opacity: 1;
+}
+.quote-container{
+    background: #E8EEFF 0% 0% no-repeat padding-box;
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font: 20px Avenir;
+    font-weight: Book;
+}
+.quote-box{
+    margin: 0 auto;
+    max-width: 850px;
+}
+.quote-container p{
+    font: 40px Merriweather;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #333333;
+    opacity: 1;
+}
+#newsroom{
+    background:url(../images/newsroom-hero.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#newsroom .button{
+    background: #FF7676 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    height: 60px;
+    width: 60px;
+}
+#newsroom .button:hover{
+    padding-left: 150px;
+    transition-duration: .5s;
+}
+.box-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box{
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    background: #FCF7F0 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+    transition: box-shadow .3s;
+}
+.box:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.box h1{
+    text-align: left;
+    font: Bold 32px Avenir Next;
+    letter-spacing: 0.32px;
+}
+.box p{
+    text-align: left;
+    font: 20px Avenir Next;
+    letter-spacing: 0.2px;
+}
+.box h5{
+    text-align: left;
+    font: 16px Avenir Next;
+    letter-spacing: 0.16px;
+}
+#careers{
+    background:url(../images/careers-hero.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.role-container{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.role-container h2{
+    text-align: left;
+    font: 32px Avenir Next;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+}
+.role-container h3{
+    font-weight: 600;
+    text-align: left;
+    font: 20px Avenir Next;
+    letter-spacing: 0.2px;
+}
+.role-container h4{
+    text-align: left;
+    font: 20px Avenir Next;
+    font-weight: 200;
+    letter-spacing: 0.2px;
+}
+.download-header{
+    width:100%;
+    min-height: 750px;
+    margin: 120px 0;
+    text-align: center;
+}
+.download-container{
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 525px;
+    font: normal normal bold 50px Avenir Next;
+    letter-spacing: 0.5px;
+}
+#download{
+    background: #FCF7F0 0% 0% padding-box;
+    background: url('../images/download-hero.png');
+    background-position: center;
+    background-repeat: repeat repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.download-container img{
+    margin: 15px;
+    width: 200px;
+    height: 60px;
+}
+.footer{
+    display:block;
+    background: #6F7995 0% 0% no-repeat padding-box;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top:40px;
+}
+.footer p{
+    margin: 30px;
+    font: normal normal medium 24px/33px Avenir Next;
+    letter-spacing: 0.24px;
+    color: #FFFFFF;
+}
