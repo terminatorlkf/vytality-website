@@ -297,7 +297,7 @@ section:before {
     color: #333333;
     opacity: 1;
 }
-.newsletter input{
+.newsletter .input{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 15px;
@@ -307,10 +307,11 @@ section:before {
     margin-bottom: 15px;
     padding-left: 15px;
 }
-.newsletter input:focus{
+.newsletter .input:focus{
     outline:0;
 }
 .button{
+    font-family: Raleway;
     padding:5px;
     font-weight: bold;
     letter-spacing: 0.2px;
@@ -325,7 +326,9 @@ section:before {
 button:focus {
     outline:0;
 }
-
+button:hover{
+    opacity: .8;
+}
 #ourstory{
     background:url(../images/ourstory-hero.png);
     display: inline-block;

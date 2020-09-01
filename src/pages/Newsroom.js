@@ -15,7 +15,7 @@ export default class Newsroom extends Component{
               Learn about what we are doing to help with COVID-19 and racial inequality
             </h5><br/>
             <button className="button">
-              <img src='images/white-down-arrow.png' alt="down" style={{float:'right',transform: 'rotate(-90deg)', width:'30px', height:'30px'}}/>
+              <img src='images/white-down-arrow.png' alt="down" style={{float:'right',transform: 'rotate(-90deg)', width:'35px', height:'35px'}}/>
             </button>
           </div>
         </div>
